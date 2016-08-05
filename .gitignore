@@ -1,0 +1,5 @@
+plugins/example
+example.zsh
+example.zshcache
+*.swp
+private/*.zsh

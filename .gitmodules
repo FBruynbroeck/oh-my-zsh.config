@@ -1,0 +1,6 @@
+[submodule "plugins/zsh-git-prompt"]
+	path = plugins/zsh-git-prompt
+	url = https://github.com/olivierverdier/zsh-git-prompt.git
+[submodule "plugins/autoenv"]
+	path = plugins/autoenv
+	url = https://github.com/horosgrisa/autoenv
