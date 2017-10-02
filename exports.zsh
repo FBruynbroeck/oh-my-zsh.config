@@ -13,8 +13,8 @@ export DYLD_LIBRARY_PATH=$ORACLE_HOME
 export TNS_ADMIN="${buildout}/oracle/"
 
 # User configuration
-export PATH="/opt/local/bin:/usr/local/bin:/usr/local/sbin:$PATH"
-export PATH="$PATH:/${buildout}/python-tools/bin"
+export PATH="/opt/local/bin:$PATH"
+export PATH="$PATH:/usr/local/sbin"
 export EDITOR='/usr/bin/vim'
 export SVN_EDITOR='/usr/bin/vim'
 export OLDPWD=$HOME
