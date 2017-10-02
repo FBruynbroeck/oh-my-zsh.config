@@ -32,11 +32,17 @@ Oh My Zsh: https://github.com/robbyrussell/oh-my-zsh
 
 `export ZSH=$HOME/.oh-my-zsh`
 
+`export UPDATE_TEMPLATEDIR_DAYS=8`
+
+`export UPDATE_TEMPLATEDIR_CMD='~/.buildout/git.scripts/bin/reload_hooks ~/buildout/ARSIA'`
+
 `ZSH_THEME="francois"`
 
-`plugins=(git web-search dirhistory tmux tmuxinator docker docker-compose boot2docker autoenv)`
+`plugins=(git python web-search dirhistory tmux tmuxinator docker docker-compose autoenv update-git-templatedir ssh-agent)`
 
 `source $ZSH/oh-my-zsh.sh`
+
+`autoenv_init`
 
 ### Configuration (ZSH-GIT-PROMPT)
 
