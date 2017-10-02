@@ -35,7 +35,6 @@ export HISTSIZE=16384
 export SAVEHIST=16384
 
 # Postgres
-export PGUSER='cerise'
 export PGHOST='localhost'
 
 # Virtualenv
