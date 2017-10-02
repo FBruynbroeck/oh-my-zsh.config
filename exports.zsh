@@ -59,3 +59,6 @@ export GIT_COMMITTER_EMAIL=$GIT_AUTHOR_EMAIL
 
 # Trac
 export TRAC_URL='http://trac.arsia.affinitic.be'
+
+# Robot
+export PLONE_CSRF_DISABLED=true
