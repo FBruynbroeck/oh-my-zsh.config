@@ -6,6 +6,7 @@ local buildout="~/buildout"
 # Custom Alias
 alias affinitic="cd ${buildout}/AFFINITIC; l"
 alias arsia="cd ${buildout}/ARSIA; l"
+alias gdl="cd ${buildout}/GDL; l"
 alias cdv="cd ${buildout}/CADREDEVILLE; l"
 alias finder="open -a finder ."
 alias gdw="cd ${buildout}/GDW; l"
