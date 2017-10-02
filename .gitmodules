@@ -4,3 +4,6 @@
 [submodule "plugins/autoenv"]
 	path = plugins/autoenv
 	url = https://github.com/horosgrisa/autoenv
+[submodule "plugins/update-git-templatedir"]
+	path = plugins/update-git-templatedir
+	url = https://github.com/FBruynbroeck/update-git-templatedir.git
