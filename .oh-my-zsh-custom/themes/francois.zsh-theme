@@ -16,7 +16,7 @@ function precmd() {
         # Use haskell. More info https://github.com/olivierverdier/zsh-git-prompt#haskell-optional
         GIT_PROMPT_USE_PYTHON='haskell'
         # export ZSH_THEME_GIT_PROMPT_CACHE=1
-        source ~/.oh-my-zsh/custom/plugins/zsh-git-prompt/zshrc.sh
+        source $ZSH_CUSTOM/plugins/zsh-git-prompt/zshrc.sh
         # git theming
         ZSH_THEME_GIT_PROMPT_PREFIX="%{$fg_bold[blue]%}(%{$reset_color%}"
         ZSH_THEME_GIT_PROMPT_SUFFIX="%{$fg_bold[blue]%})%{$reset_color%} "

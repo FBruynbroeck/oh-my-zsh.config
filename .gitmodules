@@ -1,9 +1,12 @@
-[submodule "plugins/zsh-git-prompt"]
-	path = plugins/zsh-git-prompt
+[submodule ".oh-my-zsh-custom/plugins/zsh-git-prompt"]
+	path = .oh-my-zsh-custom/plugins/zsh-git-prompt
 	url = https://github.com/olivierverdier/zsh-git-prompt.git
-[submodule "plugins/autoenv"]
-	path = plugins/autoenv
+[submodule ".oh-my-zsh-custom/plugins/autoenv"]
+	path = .oh-my-zsh-custom/plugins/autoenv
 	url = https://github.com/horosgrisa/autoenv
-[submodule "plugins/update-git-templatedir"]
-	path = plugins/update-git-templatedir
+[submodule ".oh-my-zsh-custom/plugins/update-git-templatedir"]
+	path = .oh-my-zsh-custom/plugins/update-git-templatedir
 	url = https://github.com/FBruynbroeck/update-git-templatedir.git
+[submodule ".oh-my-zsh"]
+	path = .oh-my-zsh
+	url = https://github.com/robbyrussell/oh-my-zsh.git
