@@ -20,9 +20,6 @@ export SVN_EDITOR='/usr/bin/vim'
 export OLDPWD=$HOME
 export LSCOLORS=exfxcxdxbxegedabagacad
 
-# Git Scripts
-export PATH="$PATH:${buildout}/git.scripts/bin"
-
 # Arsia
 export ZOPE_DIRECTORY="${buildout}/zope"
 export CLIENT_HOME="${buildout}/var/pass"
