@@ -43,6 +43,6 @@ function trac_search() {
 
 function chpwd {
   if [[ -d '.git' ]]; then
-      git fetch --quiet &!
+      git fetch --quiet &> /dev/null &!
   fi
 }
