@@ -4,6 +4,9 @@
 
 local buildout="$HOME/.buildout"
 
+# Terminale
+export TERM=screen-256color
+
 # Oracle
 export ORACLE_HOME=$HOME/.oracle/instantclient_11_2
 export DYLD_LIBRARY_PATH=$ORACLE_HOME
