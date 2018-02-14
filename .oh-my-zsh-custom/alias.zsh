@@ -12,7 +12,6 @@ alias finder="open -a finder ."
 alias gdw="cd ${buildout}/GDW; l"
 alias imio="cd ${buildout}/IMIO; l"
 alias ric="cd ${buildout}/RIC; l"
-alias bin/test="bin/test -c"
 # PostgreSQL
 alias postgres-silent='pg_ctl start -D /opt/local/pgsql/data/ > /dev/null &'
 alias postgres-stop='pg_ctl stop -D /opt/local/pgsql/data/'
@@ -27,5 +26,10 @@ alias copy-version="echo \`cat setup.py | grep 'name=' | cut -d \' -f2; cat setu
 alias fuck='eval $(thefuck $(fc -ln -1 | tail -n 1)); fc -R'
 # Git
 alias gh="git remote -v | awk '/fetch/{print \$2}' | sed -Ee 's#(git@|git://)#http://#' -e 's@org:@org/@' -e 's@com:@com/@' -e 's@be:@be/@' -e 's@\.git\$@@'"
+alias opengit='open `gh`'
 # Vim
 alias vimgst="vim \`git status --short | awk '{print \$2}'\`"
+# autopep8
+alias autopep8="autopep8 -ri ."
+# i18ndude
+alias find-untranslated="i18ndude find-untranslated -s ."
