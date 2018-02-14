@@ -41,8 +41,18 @@ function trac_search() {
   $open_cmd "$url"
 }
 
-function chpwd {
-  if [[ -d '.git' ]]; then
-      git fetch --quiet &> /dev/null &!
-  fi
+function change_base_buildout_version() {
+    gsed -i "s:buildout.cerise.base/raw/[0-9.]*:buildout.cerise.base/raw/$1:g" *.cfg && git ci -a
 }
+
+function clone() {
+  git clone git@git.affinitic.be:arsia/$1.git
+}
+
+# Exclude bad commands from history
+function zshaddhistory() {
+    whence ${${(z)1}[1]} >| /dev/null || return 1
+}
+
+# Forces the user to type exit or logout
+set -o ignoreeof
