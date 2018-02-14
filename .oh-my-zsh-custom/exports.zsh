@@ -12,6 +12,8 @@ export ORACLE_HOME=$HOME/.oracle/instantclient_11_2
 export DYLD_LIBRARY_PATH=$ORACLE_HOME
 export TNS_ADMIN="${buildout}/oracle/"
 
+# brew python
+export PATH="/usr/local/opt/python/libexec/bin:$PATH"
 # User configuration
 export PATH="/opt/local/bin:$PATH"
 export PATH="$PATH:/usr/local/sbin"
@@ -53,8 +55,14 @@ export GIT_AUTHOR_EMAIL='francois.bruynbroeck@hotmail.com'
 export GIT_COMMITTER_NAME=$GIT_AUTHOR_NAME
 export GIT_COMMITTER_EMAIL=$GIT_AUTHOR_EMAIL
 
+# Docker
+export DOCKER_ID_USER='fbruynbroeck'
+
 # Trac
 export TRAC_URL='http://trac.arsia.affinitic.be'
 
 # Robot
 export PLONE_CSRF_DISABLED=true
+
+# zsh-autosuggestions
+export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=4'
